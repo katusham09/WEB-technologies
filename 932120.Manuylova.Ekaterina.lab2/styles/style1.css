@@ -1,0 +1,34 @@
+span {
+    color: red;
+}
+.header {
+    background-color: #eaeaea;
+    min-height: 86px;
+}
+
+.left-column {
+    background-color: #c8fc98;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+.content-column h2{
+    float: left;
+    padding-right: 15px;
+}
+
+.footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer p a:link {
+    color: red;
+}
+.footer p a:visited {
+    color: #FFFF80;
+}

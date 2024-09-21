@@ -1,0 +1,10 @@
+.inline {
+    height: 100px;
+    width: 200px;
+    background-color: #7fffd4;
+    display: inline-block;
+}
+
+.not-inline {
+    background-color: #faebd7;
+} 

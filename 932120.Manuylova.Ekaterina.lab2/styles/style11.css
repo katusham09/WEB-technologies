@@ -1,0 +1,10 @@
+.content {
+    background-color: #00ffff;
+}
+
+img {
+    float: right;
+}
+.clearfix {
+    clear: both;
+} 

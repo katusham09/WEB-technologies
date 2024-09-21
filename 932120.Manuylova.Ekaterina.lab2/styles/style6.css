@@ -1,0 +1,12 @@
+div {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.bottom-block {
+    border: 10px solid #0000ff;
+}
+
+.bottom-block p {
+    margin: 50px;
+} 

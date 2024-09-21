@@ -1,0 +1,43 @@
+ div {
+    width: 150px;
+    height: 100px;
+    background-color: #8a2be2;
+    color: white;
+    position: static;
+}
+
+ .relative-div {
+    position: relative;
+    background-color: #8b0000;
+    top: -16px;
+}
+ 
+ .relative-div2 {
+    position: relative;
+    background-color: #cd853f;
+    top: -60px;
+    right: -25px;
+}
+
+.big-relative-div {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    background-color: #cd5c5c;
+}
+
+.big-relative-div .absolute-div {
+    position: absolute;
+    background-color: #4b0082;
+    width: 300px;
+    height: 200px;
+    top: 130px;
+    right: 0;
+}
+
+.fixed-div {
+    position: fixed;
+    background-color: #228b22;
+    bottom: 0;
+    right: 0;
+}

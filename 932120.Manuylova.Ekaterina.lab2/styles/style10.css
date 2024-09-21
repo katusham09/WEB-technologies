@@ -1,0 +1,18 @@
+.float-box {
+    background-color: #7fffd4;
+    height: 100px;
+    width: 200px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+
+.clearfix {
+    background-color: #ffe4c4;
+    clear: both;
+}
+
+.float-box p {
+    margin-top: 0px;
+}
+ 

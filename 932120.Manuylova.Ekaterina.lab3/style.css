@@ -64,6 +64,11 @@
 .content {
     padding-top: 30px;
     padding-left: 230px;
+    padding-right: 20px;
+}
+
+.content p {
+    text-align: justify;
 }
 
 .content p::first-letter {

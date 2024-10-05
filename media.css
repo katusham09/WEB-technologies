@@ -1,0 +1,45 @@
+@media (max-width: 1280px) {
+    .info {
+        display: none;
+    }
+}
+
+@media (max-width: 920px) {
+    .navigation {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .articles {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navigation ul li {
+        display: inline-block;
+        margin-right: auto;
+    }
+
+    main {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    main {
+        width: 100%;
+    }
+
+    .articles {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}

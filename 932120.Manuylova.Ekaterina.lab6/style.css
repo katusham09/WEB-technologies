@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+img {
+    height: 355px;
+}
+
+main {
+    width: 900px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    width: 296px;
+    background-color: #ff0000;
+    border: 2px solid black;
+    color: #fff;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.column {
+    padding: 20px;
+    height: 500px;
+}
+
+.columns {
+    display: flex;
+}
+
+.cat_column {
+    background-color: #0000ff;
+    width: 850px;
+}
+
+.dog_column {
+    background-color: #008000;
+    width: 44px;
+}
+
+.dog_column img {
+    display: none;
+}

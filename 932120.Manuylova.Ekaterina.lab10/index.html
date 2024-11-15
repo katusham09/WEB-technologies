@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Now you see me</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="wizard hidden" id="wizard">
+            <img src="images/2.jpg">
+        </div>
+
+        <div class="hat hidden" id="hat">
+            <img src="images/Hat.png">
+        </div>
+
+        <div class="rabbit outOfHat hidden" id="rabbit">
+            <img src="images/Rabbit.png" >
+        </div>
+        
+        <div class="pigeon inTheHat hidden" id="pigeon">
+            <img src="images/Bird.png">
+        </div>
+
+        <div class="lamp">
+            <img src="images/lamp.png" >
+            <div class="click-area" id="switcher" onclick="toggleLight()"></div>
+            <div class="light hidden" id="light"></div>
+        </div>
+
+        <div class="curtain" id="curtain" onclick="removeCurtain()"></div>
+
+        <script src="scripts/init.js"></script>
+        <script src="scripts/removeCurtain.js"></script>
+        <script src="scripts/focus.js"></script>
+        <script src="scripts/toggleLight.js"></script>
+    </body>
+</html>

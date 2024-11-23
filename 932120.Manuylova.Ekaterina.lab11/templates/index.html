@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>lab 11</title>
+</head>
+<body>
+<div class="page">
+    <header>
+        <p><span class="b1"> Backend1 </span>Home</p>
+    </header>
+
+    <div class="center">
+        <h2 class="demonstration">Calc Service Demonstration</h2>
+        <ul>
+            <li><a href="model">Using Model Calc</a></li>
+            <li><a href="viewdata">Using ViewData Calc</a></li>
+            <li><a href="viewbag">Using ViewBag Calc</a></li>
+            <li><a href="serviceinjection">Using Service Injection Calc</a></li>
+        </ul>
+
+    </div>
+    <div class="underscore"> </div>
+
+    <footer><p>© 2024 - Backend1</p></footer>
+
+</div>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+<!--  python app.py -->
+<!-- http://127.0.0.1:5000/ -->

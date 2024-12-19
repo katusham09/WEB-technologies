@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Lab 12</title>
+</head>
+<body>
+<div class="page">
+    <header>
+        <p><span class="b1"> Backend2 </span>Home</p>
+    </header>
+
+    <div class="center">
+        <h2 class="demonstration-i">Form parameters parsing demo</h2>
+        <ul>
+            <li><a href="manual-single">Manual parsing in single action</a></li>
+            <li><a href="manual-separate">Manual parsing in separate actions</a></li>
+            <li><a href="model-binding-p">Model binding (parameters)</a></li>
+            <li><a href="model-binding-s">Model binding (separate model)</a></li>
+        </ul>
+
+    </div>
+    <div class="underscore"> </div>
+
+    <footer><p>© 2024 - Backend2</p></footer>
+
+</div>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+<!--  python app.py -->
+<!-- http://127.0.0.1:5000/ -->

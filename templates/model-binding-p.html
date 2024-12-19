@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Lab 12</title>
+
+</head>
+<body>
+<div class="page">
+    <header>
+        <p><span class="b1"> Backend1 </span><a href="/" class="home">Home</a></p>
+    </header>
+
+    <div class="content">
+        <h2 class="demonstration">ModelBindingInParameters</h2>
+
+        <div class="center">
+            <input type="number" class="first_digit">
+            <select name="sign" class="sign">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" class="second_digit">
+            <button class="submit">Submit</button>
+        </div>
+
+    </div>
+    <div class="underscore"> </div>
+    <footer><p>© 2024 - Backend2</p></footer>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

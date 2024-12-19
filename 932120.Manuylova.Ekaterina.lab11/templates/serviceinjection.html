@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>lab 11</title>
+
+</head>
+<body>
+<div class="page">
+    <header>
+        <p><span class="b1"> Backend1 </span><a href="/" class="home">Home</a></p>
+    </header>
+
+    <div class="center">
+        <h2 class="demonstration">AccessServiceDirectly</h2>
+        <div class="d-top">
+            <div class="Rd-First"> Rand Value First: <span class="value1"> </span></div>
+            <div class="Rd-Second"> Rand Value Second: <span class="value2"> </span></div>
+        </div>
+
+        <div class="Examples">
+            <div class="math_name">Add: </div>
+            <span class="value1"></span> + <span class="value2"></span> = <span class="sum_res"></span>
+            <div class="math_name">Sub: </div>
+            <span class="value1"></span> - <span class="value2"></span> = <span class="sub_res"></span>
+            <div class="math_name">Mult: </div>
+            <span class="value1"></span> * <span class="value2"></span> = <span class="mult_res"></span>
+            <div class="math_name">Div: </div>
+            <span class="value1"></span> / <span class="value2"></span> = <span class="div_res"></span>
+        </div>
+
+    </div>
+    <div class="underscore"> </div>
+    <footer><p>© 2024 - Backend1</p></footer>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

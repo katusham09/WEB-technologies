@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lab9</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="calc">
+            <div class="display">
+                <p>0</p>
+            </div>
+            <div class="controls">
+                <button class="term">7</button>
+                <button class="term">8</button>
+                <button class="term">9</button>
+                <button class="operation">/</button>
+                <button onclick="deleteAll()">C</button>
+                <button class="term">4</button>
+                <button class="term">5</button>
+                <button class="term">6</button>
+                <button class="operation">*</button>
+                <button onclick="deleteOneChar()">&lt;-</button>
+                <button class="term">1</button>
+                <button class="term">2</button>
+                <button class="term">3</button>
+                <button class="operation">-</button>
+                <button class="equals" onclick="calculate()">=</button>
+                <button class="zero term">0</button>
+                <button class="term">.</button>
+                <button class="operation">+</button>
+            </div>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>

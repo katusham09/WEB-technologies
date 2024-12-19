@@ -1,0 +1,12 @@
+.content {
+    background-color: #0000ff;
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+}
+
+img {
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 30px;
+} 

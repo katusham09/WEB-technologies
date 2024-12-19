@@ -1,0 +1,13 @@
+div {
+    width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+.top-block {
+    background-color: #008000;
+}
+
+.bottom-block {
+    background-color: #0000ff;
+    padding: 50px;
+} 

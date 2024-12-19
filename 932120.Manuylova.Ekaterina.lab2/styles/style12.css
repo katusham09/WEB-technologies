@@ -1,0 +1,31 @@
+main {
+    background-color: #00ffff;
+    margin: 10px;
+    position: relative;
+}
+
+.left-block {
+    float: left;
+    width: 25%;
+}
+
+.navigation {
+    background-color: #ffe4c4;
+    padding: 25px 0px;
+}
+ 
+.content {
+    background-color: #a9a9a9;
+    margin-left: 25%;
+}
+
+@media (max-width:600px) {
+    .left-block {
+        float: none;
+    }
+    .content {
+        margin-left: 0;
+        margin-right: 25%;
+        margin-top: -16px;
+    }
+}

@@ -1,0 +1,53 @@
+span {
+    color: red;
+}
+
+.header {
+    background-color: #eaeaea;
+    min-height: 86px;
+}
+
+.content {
+    overflow: hidden;
+}
+ 
+.content div {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content div h2 {
+    float: left;
+    margin-right: 15px;
+}
+
+.left-column {
+    width: 25%;
+    float: left;
+    background-color: #c8fc98;
+}
+
+.content-column {
+    margin: 0 200px 0 25%;
+}
+
+.right-column {
+    width: 200px;
+    float: right;
+    background-color: #fde95e;
+}
+
+
+.footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer p a:link {
+    color: red;
+}
+.footer p a:visited {
+    color: #FFFF80;
+}
